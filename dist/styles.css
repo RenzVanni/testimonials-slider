@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap");
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overscroll-behavior: none;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+}
+
+p {
+  color: var(--primary-c1);
+  font-weight: 300;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+:root {
+  --primary-c1: hsl(240, 38%, 20%);
+  --primary-c2: hsl(240, 18%, 77%);
+}
+
+main {
+  position: relative;
+}
+@media (min-width: 375px) {
+  main {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+}
+main .profile-image {
+  margin-top: 4rem;
+  position: relative;
+  border-radius: 1rem;
+  margin-bottom: 5rem;
+  width: 100%;
+}
+main .profile-image .image-container {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: auto;
+  width: 70%;
+}
+main .profile-image .image-container img {
+  width: 100%;
+}
+main .profile-image .buttons {
+  background-color: #fff;
+  border-radius: 10rem;
+  display: flex;
+  position: absolute;
+  top: 90%;
+  left: 40%;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+@media (min-width: 375px) {
+  main .profile-image .buttons {
+    top: 95%;
+    left: 25%;
+  }
+}
+main .profile-image .buttons button {
+  padding: 0.7rem 0.9rem 0.5rem;
+  background-color: #fff;
+  border: none;
+}
+@media (min-width: 375px) {
+  main .profile-image .buttons button {
+    padding: 1rem 1.2rem 0.9rem;
+  }
+}
+@media (min-width: 375px) {
+  main .profile-image {
+    width: 50%;
+    margin: 5rem 2rem;
+  }
+}
+main .profile-image::before {
+  content: "";
+  width: 90%;
+  height: 100vh;
+  background-image: url("../../assets/pattern-bg.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: -12%;
+  left: 5%;
+  z-index: -1;
+}
+main .context {
+  position: relative;
+  text-align: center;
+  margin: 0 2rem;
+}
+main .context p {
+  line-height: 140%;
+  margin-bottom: 1rem;
+}
+main .context h2 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+@media (min-width: 375px) {
+  main .context {
+    position: absolute;
+    left: 10%;
+    text-align: start;
+    width: 40%;
+  }
+  main .context p {
+    font-size: 2rem;
+  }
+  main .context .name {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  main .context .name p {
+    font-size: 1rem;
+    margin: 0;
+  }
+}
+main .context > :nth-child(3) {
+  color: var(--primary-c2);
+}
+main .context::before {
+  content: "";
+  background-image: url("../../assets/pattern-quotes.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 5vh;
+  position: absolute;
+  top: -11%;
+  left: 42%;
+}
+@media (min-width: 375px) {
+  main .context::before {
+    height: 13vh;
+    top: -25%;
+    left: 13%;
+  }
+}
+
+.curve-container {
+  position: absolute;
+  top: 80%;
+}/*# sourceMappingURL=styles.css.map */

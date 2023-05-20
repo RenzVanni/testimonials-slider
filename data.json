@@ -1,0 +1,30 @@
+[ 
+  {
+    "id": 1,
+    "image": "./assets/dazai.jfif",
+    "name": "Osamu Dazai",
+    "position": "Bungo Stray Dogs",
+    "description": "Osamu Dazai (太宰 治, Dazai Osamu?) is a member of the Armed Detective Agency and former executive of the underworld organization, the Port Mafia. He has the Ability named No Longer Human."
+  },
+  {
+    "id": 2,
+    "image": "./assets/chuya.jfif",
+    "name": "Chūya Nakahara",
+    "position": "Bungo Stray Dogs",
+    "description": "Chūya Nakahara (中原 中也, Nakahara Chūya?) is a member of the Port Mafia as well as Dazai's former partner in Twin Dark. He is one of the five Executives in the Port Mafia. He has the Ability named Upon the Tainted Sorrow."
+  },
+  {
+    "id": 3,
+    "image": "./assets/ranpo.jfif",
+    "name": "Ranpo Edogawa",
+    "position": "Bungo Stray Dogs",
+    "description": "Ranpo Edogawa (江戸川 乱歩, Edogawa Ranpo?) is a member of the Armed Detective Agency. Despite not being an ability user, he is known as one of the best detectives highly sought by the police, renowned by his comrades, himself, and others as the 'greatest detective in the world' (世界最高の名探偵, sekai saikō no mei tantei?)."
+  },
+  {
+    "id": 4,
+    "image": "./assets/Ogai Mori.jfif",
+    "name": "Ōgai Mori",
+    "position": "Bungo Stray Dogs",
+    "description": "Ōgai Mori (森 鴎外, Mori Ōgai?) is the leader of the Port Mafia. He has the ability named Vita Sexualis. "
+  }
+]
